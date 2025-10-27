@@ -18,7 +18,8 @@ python3 main.py
 # Test
 
 ```bash
-python3 tests/test_main.py
+pytest tests/test_pipeline.py
+pytest tests/test_readers.py
 ```
 
 # Structure explanation
@@ -26,3 +27,6 @@ python3 tests/test_main.py
 The program has a models.py file that defines the data models for the pipeline.
 
 The readers folder contains the data readers for each data source.
+
+Teh data folder constains the original data to be processed and data tests for the testings.
+
